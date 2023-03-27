@@ -1,4 +1,4 @@
-package br.com.dominio;
+package app;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -93,6 +93,7 @@ public class NotaFiscal {
             return false;
         if (getClass() != obj.getClass())
             return false;
+
         NotaFiscal other = (NotaFiscal) obj;
         if (numeroNotaFiscal == null) {
             if (other.numeroNotaFiscal != null)
@@ -107,6 +108,5 @@ public class NotaFiscal {
         return "NotaFiscal [dataEmissao=" + dataEmissao + ", dataRecepcao=" + dataRecepcao + ", numeroNotaFiscal="
                 + numeroNotaFiscal + ", serieNotaFiscal=" + serieNotaFiscal + ", valor=" + valor + "]\n";
     }
-    
-    
+
 }
