@@ -7,9 +7,9 @@ public interface Venda {
 
     public abstract NotaFiscal pesquisarVenda(Set<NotaFiscal> setNotasFiscais);
 
-    public abstract int calcularTotalVendasMes(Set<NotaFiscal> setNotasFiscais);
+    public abstract double calcularTotalVendasMes(Set<NotaFiscal> setNotasFiscais);
 
-    public abstract void listarVendas(Set<NotaFiscal> setNotasFiscais);
+    public abstract boolean listarVendas(Set<NotaFiscal> setNotasFiscais);
 
     public abstract double calcularValorMedioVendas(Set<NotaFiscal> setNotasFiscais);
 }   

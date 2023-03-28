@@ -2,7 +2,7 @@ package app;
 
 public class Menu {
     private static void exibirOpcoes() {
-        System.out.println("________MENU________");
+        System.out.println("\n________MENU________");
         System.out.println("1 - Cadastrar venda");
         System.out.println("2 - Pesquisar venda");
         System.out.println("3 - Listar vendas");
